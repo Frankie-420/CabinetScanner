@@ -1,9 +1,10 @@
 
 # Configuration for Communication with datalogic scanner
 scanner:
-  com_port: /dev/ttyS0
+  com_port: COM3
   baudrate: 9600
   timeout: 1
 
 # Configuration for database location
-export_location: /mnt/usb
+database:
+  path: D:\Repository\CabinetScanner\database.db
