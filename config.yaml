@@ -1,0 +1,9 @@
+
+# Configuration for Communication with datalogic scanner
+scanner:
+  com_port: /dev/ttyS0
+  baudrate: 9600
+  timeout: 1
+
+# Configuration for database location
+export_location: /mnt/usb
